@@ -1,0 +1,86 @@
+{
+  "sample_classes": [
+    {
+      "id": 1,
+      "name": "Yoga",
+      "date_time": "2024-01-15T10:00:00+05:30",
+      "instructor": "Sarah Johnson",
+      "available_slots": 20,
+      "total_slots": 20,
+      "description": "Gentle yoga session for all levels"
+    },
+    {
+      "id": 2,
+      "name": "Zumba",
+      "date_time": "2024-01-15T18:00:00+05:30",
+      "instructor": "Mike Rodriguez",
+      "available_slots": 15,
+      "total_slots": 15,
+      "description": "High-energy dance fitness class"
+    },
+    {
+      "id": 3,
+      "name": "HIIT",
+      "date_time": "2024-01-16T07:00:00+05:30",
+      "instructor": "Emma Wilson",
+      "available_slots": 12,
+      "total_slots": 12,
+      "description": "High-intensity interval training"
+    },
+    {
+      "id": 4,
+      "name": "Pilates",
+      "date_time": "2024-01-16T16:00:00+05:30",
+      "instructor": "David Chen",
+      "available_slots": 10,
+      "total_slots": 10,
+      "description": "Core strengthening and flexibility"
+    },
+    {
+      "id": 5,
+      "name": "Spinning",
+      "date_time": "2024-01-17T09:00:00+05:30",
+      "instructor": "Lisa Thompson",
+      "available_slots": 18,
+      "total_slots": 18,
+      "description": "Indoor cycling workout"
+    }
+  ],
+  "sample_bookings": [
+    {
+      "id": 1,
+      "class_id": 1,
+      "client_name": "John Doe",
+      "client_email": "john@example.com",
+      "booking_date": "2024-01-15T10:00:00+05:30"
+    },
+    {
+      "id": 2,
+      "class_id": 2,
+      "client_name": "Jane Smith",
+      "client_email": "jane@example.com",
+      "booking_date": "2024-01-15T18:00:00+05:30"
+    },
+    {
+      "id": 3,
+      "class_id": 1,
+      "client_name": "Bob Wilson",
+      "client_email": "bob@example.com",
+      "booking_date": "2024-01-15T10:00:00+05:30"
+    }
+  ],
+  "sample_requests": {
+    "book_class": {
+      "class_id": 1,
+      "client_name": "Alice Johnson",
+      "client_email": "alice@example.com"
+    },
+    "get_bookings": {
+      "email": "john@example.com"
+    }
+  },
+  "timezone_info": {
+    "default_timezone": "IST (UTC+5:30)",
+    "note": "All class times are in Indian Standard Time"
+  }
+} 
